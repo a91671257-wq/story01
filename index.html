@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>노란 연필의 하루</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Gowun Dodum for warm storybook feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Gowun Dodum', sans-serif;
+            background-color: #fcf9f2;
+            color: #4a403a;
+        }
+        .story-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px -5px rgba(184, 150, 110, 0.2), 0 8px 10px -6px rgba(184, 150, 110, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .story-img:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col justify-between">
+
+    <header class="w-full py-8 px-4 text-center bg-[#f7f1e3] border-b border-[#e8dcc4] shadow-sm">
+        <h1 class="text-3xl md:text-4xl font-bold text-[#7a5c32] tracking-wide mb-2">✏️ 노란 연필의 하루</h1>
+        <p class="text-sm md:text-base text-[#8c7853]">작은 노란 연필이 떠나는 따뜻하고 포근한 외출 이야기</p>
+    </header>
+
+    <main class="w-full max-w-2xl mx-auto px-4 py-8 flex flex-col gap-12">
+
+        <!-- Scene 1 -->
+        <article class="bg-white p-6 rounded-2xl shadow-md border border-[#f0ebd8] flex flex-col items-center text-center">
+            <div class="w-full overflow-hidden rounded-xl mb-4 bg-[#fcf9f2] p-2">
+                <img src="scene1.png" alt="장면 1: 출발" class="story-img mx-auto" onerror="this.onerror=null;this.src='https://placehold.co/600x400/fff3cd/856404?text=Scene+1:+출발';">
+            </div>
+            <span class="inline-block px-3 py-1 bg-[#faedcd] text-[#8c7853] text-xs font-semibold rounded-full mb-2">장면 1</span>
+            <h2 class="text-xl font-bold text-[#5c4a32] mb-2">출발</h2>
+            <p class="text-[#6e6355] text-sm md:text-base leading-relaxed">
+                작은 집 앞에서 파란 배낭을 메고 두근거리는 마음으로 가볍게 발걸음을 내딛습니다.
+            </p>
+        </article>
+
+        <!-- Scene 2 -->
+        <article class="bg-white p-6 rounded-2xl shadow-md border border-[#f0ebd8] flex flex-col items-center text-center">
+            <div class="w-full overflow-hidden rounded-xl mb-4 bg-[#fcf9f2] p-2">
+                <img src="scene2.png" alt="장면 2: 산책" class="story-img mx-auto" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e2f0d9/385723?text=Scene+2:+산책';">
+            </div>
+            <span class="inline-block px-3 py-1 bg-[#faedcd] text-[#8c7853] text-xs font-semibold rounded-full mb-2">장면 2</span>
+            <h2 class="text-xl font-bold text-[#5c4a32] mb-2">산책</h2>
+            <p class="text-[#6e6355] text-sm md:text-base leading-relaxed">
+                알록달록 예쁜 꽃이 핀 공원의 산책길을 기분 좋은 바람을 맞으며 즐겁게 걷습니다.
+            </p>
+        </article>
+
+        <!-- Scene 3 -->
+        <article class="bg-white p-6 rounded-2xl shadow-md border border-[#f0ebd8] flex flex-col items-center text-center">
+            <div class="w-full overflow-hidden rounded-xl mb-4 bg-[#fcf9f2] p-2">
+                <img src="scene3.png" alt="장면 3: 도서관" class="story-img mx-auto" onerror="this.onerror=null;this.src='https://placehold.co/600x400/d9ead3/274e13?text=Scene+3:+도서관';">
+            </div>
+            <span class="inline-block px-3 py-1 bg-[#faedcd] text-[#8c7853] text-xs font-semibold rounded-full mb-2">장면 3</span>
+            <h2 class="text-xl font-bold text-[#5c4a32] mb-2">도서관</h2>
+            <p class="text-[#6e6355] text-sm md:text-base leading-relaxed">
+                아늑한 도서관 책꽂이 속에서 흥미진진한 그림책을 발견하고 함박웃음을 지어 보입니다.
+            </p>
+        </article>
+
+        <!-- Scene 4 -->
+        <article class="bg-white p-6 rounded-2xl shadow-md border border-[#f0ebd8] flex flex-col items-center text-center">
+            <div class="w-full overflow-hidden rounded-xl mb-4 bg-[#fcf9f2] p-2">
+                <img src="scene4.png" alt="장면 4: 창가에 앉아" class="story-img mx-auto" onerror="this.onerror=null;this.src='https://placehold.co/600x400/fff2cc/b45f06?text=Scene+4:+창가에+앉아';">
+            </div>
+            <span class="inline-block px-3 py-1 bg-[#faedcd] text-[#8c7853] text-xs font-semibold rounded-full mb-2">장면 4</span>
+            <h2 class="text-xl font-bold text-[#5c4a32] mb-2">창가에 앉아</h2>
+            <p class="text-[#6e6355] text-sm md:text-base leading-relaxed">
+                따스한 햇살이 비치는 창가에 편안하게 앉아 그림책의 이야기 속으로 빠져듭니다.
+            </p>
+        </article>
+
+        <!-- Scene 5 -->
+        <article class="bg-white p-6 rounded-2xl shadow-md border border-[#f0ebd8] flex flex-col items-center text-center">
+            <div class="w-full overflow-hidden rounded-xl mb-4 bg-[#fcf9f2] p-2">
+                <img src="scene5.png" alt="장면 5: 따뜻한 노을 아래" class="story-img mx-auto" onerror="this.onerror=null;this.src='https://placehold.co/600x400/fce5cd/a64d79?text=Scene+5:+따뜻한+노을+아래';">
+            </div>
+            <span class="inline-block px-3 py-1 bg-[#faedcd] text-[#8c7853] text-xs font-semibold rounded-full mb-2">장면 5</span>
+            <h2 class="text-xl font-bold text-[#5c4a32] mb-2">따뜻한 노을 아래</h2>
+            <p class="text-[#6e6355] text-sm md:text-base leading-relaxed">
+                온 세상을 붉게 물들이는 따뜻한 노을 아래, 행복했던 하루를 마음에 담고 집으로 향합니다.
+            </p>
+        </article>
+
+    </main>
+
+    <footer class="w-full py-6 px-4 text-center text-xs text-[#9c8973] border-t border-[#e8dcc4] bg-[#f7f1e3] mt-8">
+        <p>© 노란 연필의 하루. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
